@@ -1,2 +1,94 @@
-<script src='build/main.bundle.js'></script>
-hello world
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Virtual Keyboard</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+    <style>
+        .uuuu{
+            padding : 10px  ;
+            border-radius: 8px; 
+            background-color :cornflowerblue;
+        }
+    </style>
+    <h1 style="text-align : center ; font-family: 'Baloo Bhaijaan', cursive;">Virtual Keyboard</h1>
+</head>
+
+<body style="background-color :antiquewhite">
+
+
+    <div style="text-align : center">
+        <textarea id="output" rows="5" cols="50"></textarea><br><br><br>
+        <div style="padding : 50px ;background-color :beige;
+        width: 600;
+        margin: auto;">
+       
+
+        <button class="uuuu" onclick="go('~')">~</button>
+        <button class="uuuu" onclick="go('1')">1</button>
+        <button class="uuuu" onclick="go('2')">2</button>
+        <button class="uuuu" onclick="go('3')">3</button>
+        <button class="uuuu" onclick="go('4')">4</button>
+        <button class="uuuu" onclick="go('5')">5</button>
+        <button class="uuuu" onclick="go('6')">6</button>
+        <button class="uuuu" onclick="go('7')">7</button>
+        <button class="uuuu" onclick="go('8')">8</button>
+        <button class="uuuu" onclick="go('9')">9</button>
+        <button class="uuuu" onclick="go('0')">0</button>
+        <button class="uuuu" onclick="go('-')">-</button>
+        <button class="uuuu" onclick="go('=')">=</button>
+        <button class="uuuu" onclick="backspace()">Backspace</button><br>
+        <button class="uuuu" onclick="go('\t')">Tab</button>
+        <button class="uuuu" onclick="go('q')">Q</button>
+        <button class="uuuu" onclick="go('w')">W</button>
+        <button class="uuuu" onclick="go('e')">E</button>
+        <button class="uuuu" onclick="go('r')">R</button>
+        <button class="uuuu" onclick="go('t')">T</button>
+        <button class="uuuu" onclick="go('y')">Y</button>
+        <button class="uuuu" onclick="go('u')">U</button>
+        <button class="uuuu" onclick="go('i')">I</button>
+        <button class="uuuu" onclick="go('o')">O</button>
+        <button class="uuuu" onclick="go('p')">P</button>
+        <button class="uuuu" onclick="go('[')">[</button>
+        <button class="uuuu" onclick="go(']')">]</button>
+        <button class="uuuu" onclick="go('\\')">\</button><br>
+        <button class="uuuu" >CapsLock</button>
+        <button class="uuuu" onclick="go('a')">A</button>
+        <button class="uuuu" onclick="go('s')">S</button>
+        <button class="uuuu" onclick="go('d')">D</button>
+        <button class="uuuu" onclick="go('f')">F</button>
+        <button class="uuuu" onclick="go('g')">G</button>
+        <button class="uuuu" onclick="go('h')">H</button>
+        <button class="uuuu" onclick="go('j')">J</button>
+        <button class="uuuu" onclick="go('k')">K</button>
+        <button class="uuuu" onclick="go('l')">L</button>
+        <button class="uuuu" onclick="go(';')">;</button>
+        <button class="uuuu" onclick="go('\'')">'</button>
+        <button class="uuuu" onclick="go('\n')">Enter</button><br>
+        <button class="uuuu" >Shift</button>
+        <button class="uuuu" onclick="go('z')">Z</button>
+        <button class="uuuu" onclick="go('x')">X</button>
+        <button class="uuuu" onclick="go('c')">C</button>
+        <button class="uuuu" onclick="go('v')">V</button>
+        <button class="uuuu" onclick="go('b')">B</button>
+        <button class="uuuu" onclick="go('n')">N</button>
+        <button class="uuuu" onclick="go('m')">M</button>
+        <button class="uuuu" onclick="go(',')">,</button>
+        <button class="uuuu" onclick="go('.')">.</button>
+        <button class="uuuu" onclick="go('/')">/</button>
+        <button class="uuuu" >Shift</button><br>
+        <button class="uuuu" style="width : 200px" onclick="go(' ')">SpaceBar</button>
+        </div>
+    </div>
+        
+
+
+
+
+    <script src='build/main.bundle.js'></script>
+</body>
+
+</html>
